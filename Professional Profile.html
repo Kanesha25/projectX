@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Professional Profile</title>
+</head>
+<script>
+	function myFunction() {
+		var fname= document.getElementById('fname').value;
+		localStorage.setItem('My_fname',fname);
+
+		var lname= document.getElementById('lname').value;
+		localStorage.setItem('My_lname',lname);
+
+		var dob= document.getElementById('dob').value;
+		localStorage.setItem('My_dob',dob);
+
+		var adress= document.getElementById('adress').value;
+		localStorage.setItem('My_adress',adress);
+
+		var phone= document.getElementById('phone').value;
+		localStorage.setItem('My_phone',phone);
+
+		var email= document.getElementById('email').value;
+		localStorage.setItem('My_email',email);
+
+		var Type= document.getElementById('Type').value;
+		localStorage.setItem('My_Type',Type);
+
+		var Gender= document.getElementById('Gender').value;
+		localStorage.setItem('My_Gender',Gender);
+
+		var introductionr= document.getElementById('introduction').value;
+		localStorage.setItem('My_introduction',introductionr);
+
+		var education1= document.getElementById('education1').value;
+		localStorage.setItem('My_education1',education1);
+
+		var workexperience= document.getElementById('workexperience').value;
+		localStorage.setItem('My_workexperience',workexperience);
+
+
+	}
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	body {
+		background-image: url('bggg.jpg');
+		background-attachment: fixed;
+		background-size: 100% 100% ;
+	}
+	p{font-family: Times New Roman;
+		font-size: 16;}
+	.button {
+                      background-color: #4c00b0;
+                      border: none;
+                      color: white;
+                      padding: 15px 32px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 16px;
+                      margin: 4px 2px;
+                      cursor: pointer;
+                      border-radius: 12px;}
+    .button1 {
+                      background-color: #a000c8;
+                      border: none;
+                      color: white;
+                      padding: 15px 32px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 16px;
+                      margin: 4px 2px;
+                      cursor: pointer;
+                      border-radius: 12px;}
+
+    .button3{
+					  background-color: #4CAF50; /* Green */
+					  border: none;
+					  color: white;
+					  padding: 16px 32px;
+					  text-align: center;
+					  text-decoration: none;
+					  display: inline-block;
+					  font-size: 16px;
+					  margin: 4px 2px;
+					  transition-duration: 0.4s;
+					  cursor: pointer;}
+	.button2 {
+					  background-color: white; 
+					  color: black; 
+					  border: 2px solid #008CBA;
+					}
+
+	.button2:hover {
+					  background-color: #008CBA;
+					  color: white;
+					}
+
+	.button4 {
+					  background-color: white; 
+					  color: black; 
+					  border: 2px solid #4CAF50;
+					}
+
+	.button4:hover {
+					  background-color: #4CAF50;
+					  color: white;
+					}
+
+
+</style>
+<body>
+	<header class="w3-container w3-theme w3-padding" id="myHeader">
+  
+  <div class="w3-center">
+  <h1 class="w3-xxxlarge w3-animate-bottom">Professional Profile</h1>
+    <div class="w3-padding-32">
+      <a href="Home.html"  class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" style="font-weight:900;">Home</a><br>
+
+	
+    </div>
+  </div>
+</header>
+
+	<marquee direction="up" height="30px" scrollamount="2"> Wellcome...!</marquee>
+	<marquee direction="left" width="100" scrollamount="2" >If you want creat a website,please fill this form compulsary...</marquee>
+	<form action="personal profile.html">
+		<b><i class="fa fa-address-book"></i>First Name:</b><br>
+		<input type="text" name="fname" id="fname" placeholder="Kanesha"><br><p></p>
+		
+		<b><i class="fa fa-address-book"></i>Last Name:</b><br>
+		<input type="text" name="lname" id="lname" placeholder="Thalagahapitiya"><br><p></p>
+		
+		<b><i class="fa fa-calendar-check-o "></i>Date of Birth:</b><br>
+		<input type="date" name="dob" id="dob" placeholder="12/25/2001"><br><p></p>
+		
+		<b><i class="fa fa-address-card "></i>Address:</b><br>
+		<input type="text" name="adress" id="adress" placeholder="'160/1',Ruhunu Mawatha,Kurunegala"><br><p></p>
+		
+		<b><i class="fa fa-phone-square "></i>Phone Number:</b><br>
+		<input type="tell" name="phone" id="phone"  placeholder="0703250664"><br><p></p>
+		
+		<b><i class="fa fa-envelope-open "></i>Email:</b><br>
+		<input type="email" name="email" id="email" placeholder="kaneshathalagahapitiya@gmail.com"><br><p></p>
+		
+		<b> What do you want type of website?</b><br>
+		<select name="type" id="Type">
+            <option value="Buisness" id="Buisness ">Buisness </option>
+            <option value="Private" id="Private">Private </option>
+            <option value="Education " id="Education">Education</option>
+            <option value="Entertainment " id="Entertainment">Entertainment</option>
+        </select>
+		<br><p></p>
+
+		<b><i class="fa fa-male"></i>/<i class="fa fa-female"></i>Gender:</b><br>
+		<select name="type" id="Gender">
+            <option value="Male" id="Male ">Male </option>
+            <option value="Female" id="Female
+            ">Female </option>
+        </select>
+		<br><p></p>
+
+		<b><i class="fa fa-photo"></i>Upload your photo:</b>
+		<input type="file" name="image" id='file-el'><p></p>
+
+		<b><i class="fa fa-file"></i>Introduction:</b><br>
+		<textarea name="introduction" id="introduction" rows="5" cols="50"></textarea><br><p></p>
+
+		<b><i class="fa fa-graduation-cap"></i>Education:</b><br>
+		<textarea name="education1" id="education1" rows="5" cols="50"></textarea><br><p></p>
+
+		<b><i class="fa fa-wrench"></i>Work Experience:</b><br>
+		<textarea name="workexperience" id="workexperience" rows="5" cols="50"></textarea><br><p></p>
+
+		<button class="button button2" onclick="myFunction();" id='btn'>Create</button>
+
+		<input type="Reset"  button class="button button4"></button>
+
+
+	</form>
+	<script>
+                    const fileEl=document.getElementById("file-el");
+                    const btn=document.getElementById("btn");
+            
+                    btn.addEventListener("click",()=>{
+                        window.location.href="personal.html"
+                    })
+            
+                    fileEl.addEventListener("change",()=>{
+                        const fr= new FileReader();
+                        fr.readAsDataURL(fileEl.files[0]);
+                        fr.addEventListener("load",()=>{
+                             const url= fr.result;
+                             
+                            localStorage.setItem("my-image",url);
+                        });
+                    })
+                </script>
+	
+
+
+
+
+
+
+
+
+</body>
+</html>
